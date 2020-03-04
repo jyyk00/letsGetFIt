@@ -8,3 +8,5 @@ This application uses
 - CSS
 - JAVA
 - MONGO/MONGOOSE 
+
+Heroku: https://letsgetfit.herokuapp.com/
