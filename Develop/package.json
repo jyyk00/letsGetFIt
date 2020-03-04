@@ -1,7 +1,7 @@
 {
-  "name": "mongoose_skeleton",
+  "name": "letsgetfit",
   "version": "1.0.0",
-  "description": "",
+  "description": "letsgetfit",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,5 +15,6 @@
     "express": "^4.16.3",
     "mongoose": "^5.3.16",
     "morgan": "^1.9.1"
-  }
+  },
+  "devDependencies": {}
 }
