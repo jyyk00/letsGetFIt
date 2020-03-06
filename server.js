@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(express.static("public"));
 
 mongoose.connect(process.env.MONGODB_URI ||
-  "mongodb://user:password1@ds159110.mlab.com:59110/heroku_0jpfz0mg", {
+  "mongodb://user:password1@ds023388.mlab.com:23388/heroku_nw1m5j4k", {
   useNewUrlParser: true,
   useFindAndModify: false,
   useUnifiedTopology: true 
