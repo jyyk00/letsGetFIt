@@ -13,12 +13,12 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect(process.env.MONGODB_URI ||
-  "mongodb://user:password1@ds145146.mlab.com:45146/heroku_g0nrg967", {
+mongoose.connect("mongodb://heroku_0jpfz0mg:2eeo9kq3rloosub37cr4h6c4nl@ds159110.mlab.com:59110/heroku_0jpfz0mg", {
   useNewUrlParser: true,
   useFindAndModify: false,
   useUnifiedTopology: true 
 });
+
 
 // routes
 app.use(require("./routes/api.js"));
